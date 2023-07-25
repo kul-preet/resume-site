@@ -1,0 +1,39 @@
+body
+{
+    margin: 0;
+}
+.top-container
+{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    /* display: inline-block; */
+    position: relative;
+    left: 200px;
+    top: 200px;
+    /* top: 100px; */
+}
+
+.middle-container
+{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    /* display: inline-block; */
+    position: relative;
+    left:100px;;
+    top: 0px;
+    /* right: 100px; */
+}
+
+
+.bottom-container
+{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    /* display: inline-block; */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
